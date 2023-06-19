@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>ToDo App</title>
+    
+</head>
+    <body>
+    
+        <div class="container">
+            <h1>To-Do List</h1>
+            <div class="toast" id="toast"><span style="font-weight: bold">Success</span>!<br> All items cleared.</div>
+            <div class="deleteToast" id="deleteToast"><span style="font-weight: bold">Deleted</span>!<br>Item removed from list.</div>
+
+            <form id="form" class="form">
+            <label for="add-item"></label>
+            <input type="text" autocomplete="off" id="add-item" name="add-item" placeholder="Add an item!">
+
+            <button type="submit" class="sub-btn" id="sub-btn">Submit</button>
+            <button class="clear-btn" id="clear-btn">Clear list</button>
+            </form>
+    
+        </div>
+
+        <div class="ul-container">
+            <ol id="item-list"></ol>
+        </div>
+
+    </body>
+</html> 
+
